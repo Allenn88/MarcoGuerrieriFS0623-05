@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&faly=Roboto:wght@400;700&display=swap');
+html{
+    font-size: 1.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+body{
+    width: 450px;
+    height: 500px;
+    text-align: center;
+}
+body h1,h2{
+    color:rgb(34, 170, 204)
+}
+
+h1 {
+    margin-top: 0;
+}
+h3{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+section p:first-child{
+    font-size: 1rem;
+}
+section p:last-child{
+    font-size: 0.8rem;
+}
+
+header {
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+    width: auto;
+    height: 50px;
+}
+
+.logo {
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.testata {
+    background-image: url(../S1-L5/Esercizio/images/banner.jpg);
+    background-position: center center;
+    background-size: 100%;
+    padding-bottom: 25px;
+}
+
+.bottone {
+    background-color: rgb(254,69,35);
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0px;
+}
+.bottone a{
+    color: blanchedalmond;
+    font-size: 0.65rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.notebook {
+    border-radius: 50%;
+}
+
+section{
+    background-color: rgb(234, 33, 41);
+    color: aliceblue;
+    padding: 50px;
+}
+
+aside{
+    padding-top: 50px;
+    text-align: center;
+}
+.pc {
+    width: 380px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    border: 10rem;
+    border-color: #dee1e3;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
+    padding-bottom: 30px;
+}
+
+.impara {
+    width: 380px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    border: 10rem;
+    border-color: #dee1e3;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
+    padding-bottom: 30px;
+}
+
+.lavora {
+    width: 380px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    border: 10rem;
+    border-color: #dee1e3;
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: rgb(51, 148, 201);
+    color: white; 
+    padding-top: 25px;
+    padding-bottom: 25px;   
+}
+
+hr{
+    width: 70%;
+}
+
+.footercall p{
+    margin: 0;
+    padding: 0;
+}
+
+.footercall {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ .mail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+ }
+ .indirizzo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+ }
+ 
+ .indirizzo p {
+    padding: 0;
+    margin: 0;
+ }
+ 
+ footer a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.7rem;
+ }
+ footer p:last-child{
+    font-size: 0.7rem;
+ }
+ footer p:first-child{
+    font-size: 1.2rem;
+ }
